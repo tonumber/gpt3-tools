@@ -26,7 +26,7 @@ var embed = new discord.MessageEmbed()
 .setTitle("OpenAI GPT-3 Statistics Bot")
 .setDescription("These stats may be somewhat off due to rate limits.\n\n\n**Total Credits Used**:\n``"+req.data.credits_used+"``\n\n**Total USD Spent on Credits**:\n``"+req.data.current_usage_usd+"``")
 .setColor("#ff7043")
-.setFooter("made with love by Agent#9895 - current statistics are for the account: Agentie")
+.setFooter("made with love by Agent#9895 - current statistics are for the account: Agentie") // change this to ur acc name, too lazy to make it auto get.
 msg.channel.send(embed)
 }
 client.on("message", async m =>{
