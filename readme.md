@@ -4,3 +4,5 @@ Go to https://github.com/tonumber/gpt3-tools/tree/main/tuts to see the tutorials
 
 Mostly nodejs for discord.
 
+
+Made by Agent#9895
